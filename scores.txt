@@ -1,0 +1,30 @@
+
+{"name":"asdasdad","score":500}
+{"name":"NUNO SILVA ","score":325}
+{"name":"22222","score":25}
+{"name":"2222","score":0}
+{"name":"22222","score":400}
+{"name":"wdwdwd","score":175}
+{"name":"222222","score":75}
+{"name":"sssss","score":75}
+{"name":"wwwww","score":75}
+{"name":"wwww","score":400}
+{"name":"wwwww","score":125}
+{"name":"www","score":200}
+{"name":"sss","score":25}
+{"name":"sa ","score":2600}
+{"name":"fawfaw","score":2400}
+{"name":"sssssss","score":0}
+{"name":"asdasda","score":50}
+{"name":"www","score":300}
+{"name":"ssss","score":250}
+{"name":"sdasda","score":50}
+{"name":"adasda","score":0}
+{"name":"dadaadadadadadada","score":525}
+{"name":"212231231231","score":2400}
+{"name":"sdasd","score":0}
+{"name":"2222222222222222222222222","score":0}
+{"name":"wwwwwww","score":175}
+{"name":"ssssssssssssssssssssssss","score":700}
+{"name":"sssssss","score":575}
+{"name":"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\","score":1825}
