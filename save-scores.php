@@ -20,11 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   header('Content-Type: application/json');
   echo json_encode(['success' => true]);
 }
-
-// Get the scores from the text file
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
   // Open the text file for reading
-  $file = fopen('https://localhost/scores.txt', 'r');
+  $file = fopen('scores.txt', 'r');
 
   // Read the contents of the text file into an array of JSON objects
   $scores = [];
@@ -33,8 +31,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     if ($line !== false && trim($line) !== '') {
       $scoreData = json_decode($line, true);
       $scores[] = [
-        '$name' => $scoreData['$name'],
-        '$score' => intval($scoreData['$score'])
+        'name' => $scoreData['name'],
+        'score' => intval($scoreData['score'])
       ];
     }
   }
@@ -47,7 +45,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     return $b['score'] - $a['score'];
   });
 
-  // Return the scores as JSON
+  // Return the top 5 scores as JSON
+  $topScores = array_slice($scores, 0, 5);
   header('Content-Type: application/json');
-  echo json_encode($scores);
+  echo json_encode($topScores);
 }
